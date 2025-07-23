@@ -1,0 +1,156 @@
+.first_screen {
+    padding: 98px 0 101px;
+    background-image: url("../img/first_screen/background-1_1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.first_screen::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 55%);
+    z-index: 2;
+
+}
+
+.first_screen_logo {
+    display: block;
+    font-family: "Raleway";
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 42px;
+}
+
+.first_screen_logo-IT {
+    color: #EC7979;
+}
+
+.first_screen_title {
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    width: 544px;
+    margin-bottom: 39px;
+    text-align: left;
+}
+
+.first_screen_title::after {
+    display: block;
+    content: '';
+    width: 64px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 32px;
+}
+
+.first_screen_description {
+    width: 282px;
+    margin-bottom: 39px;
+}
+
+.first_screen_description p {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFFCC;
+}
+
+.first_screen-button {
+    display: inline-flex;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 11px 28px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: ease-out 0.5s;
+}
+
+.first_screen-button:hover {
+    box-shadow: inset 0 0 0 30px #EC7979;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 -15px;
+}
+
+.first_screen_left {
+    margin: 0 15px;
+}
+
+.first_screen_form {
+    margin: 0 15px;
+    width: 370px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.try p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.try p span {
+    color: #EC7979;
+}
+
+.try {
+    margin-bottom: 44px;
+}
+
+.label_name,
+.label_email,
+.label_password {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+.name,
+.email,
+.password {
+    /* border: none; */
+    width: 252px;
+    margin: 7px auto 10px;
+    height: 25px;
+    text-align: left;
+    padding: 5px 10px;
+    border-width: 0 0 1px 0;
+    border-color: #BDBDBD;
+    outline: none;
+}
+
+.first_screen_started {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    border: none;
+    background-color: #EC7979;
+    color: #fff;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.first_screen_form_inner {
+    padding: 15px 59px 60px;
+}

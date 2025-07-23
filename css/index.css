@@ -1,0 +1,54 @@
+@import url('./fonts.css');
+@import url('./awesome.css');
+@import url('./pricing.css');
+@import url('./header.css');
+@import url('./axure.css');
+@import url('./customers.css');
+@import url('./social.css');
+@import url('./footer.css');
+@import url('./first_screen.css');
+@import url('./contact.css');
+@import url('./tabs.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: style none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family: "Open Sans", "Raleway", sans-serif;
+}
+
+.container {
+    position: relative;
+    z-index: 3;
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    width: 750px;
+    text-align: center;
+    margin: 0 auto 34px;
+    color: #212121;
+}
+
+.title::after {
+    display: block;
+    content: '';
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+}

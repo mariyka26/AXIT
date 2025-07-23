@@ -1,0 +1,65 @@
+.awesome {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.description p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    text-align: center;
+}
+
+.description {
+    margin: auto;
+    width: 400px;
+
+}
+
+.awesome-heading {
+    margin-bottom: 64px;
+}
+
+.awesome-card {
+    width: 350px;
+    margin: 0 15px;
+}
+
+.awesome-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.awesome-card-img i {
+    font-size: 30px;
+    color: #ec8237;
+}
+
+.awesome-card-img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    width: 189px;
+    margin: 0 auto 16px;
+    text-align: center;
+    color: #333333;
+
+}
+
+.awesome-card-desc p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
