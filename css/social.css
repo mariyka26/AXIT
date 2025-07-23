@@ -1,0 +1,82 @@
+.social {
+    background-color: #F8EFEF;
+    padding: 14px 0 17px;
+}
+
+.social_description p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #86878B;
+}
+
+.social_description {
+    width: 365px;
+}
+
+.social_title {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+.social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_icons {
+    display: flex;
+}
+
+.icons {
+    margin-left: 64px;
+}
+
+.icons i {
+    font-size: 36px;
+    color: #b5b4b4;
+    transition: .3s;
+
+}
+
+.icons i:hover {
+    transform: scale(1.5) rotate(360deg);
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+}
+
+.fa-google:hover {
+    color: #4285f4;
+}
+
+.fa-pinterest:hover {
+    color: #c8232c;
+}
+
+.fa-instagram:hover {
+    color: #fb0364;
+    /* color: -webkit-linear-gradient(140deg, #9a18fe, #fb0364, #fe7e01, #fdbb00, #fe0e8c);
+    Chrome 10-25, Safari 5.1-6 
+    color: linear-gradient(140deg, #9a18fe, #fb0364, #fe7e01, #fdbb00, #fe0e8c);
+    W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fa-paper-plane:hover {
+    color: #0088cc;
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
